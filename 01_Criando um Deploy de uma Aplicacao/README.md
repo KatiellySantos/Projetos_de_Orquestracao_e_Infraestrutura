@@ -1,12 +1,12 @@
-# 🚀 Projeto Completo: Deploy com Kubernetes
+# Deploy com Kubernetes
 
 ## 📚 Estrutura Geral do Projeto
-
+   ```bash
 /frontend/ # Código-fonte do frontend (HTML, CSS, JS)
 /backend/ # Código-fonte do backend (PHP, arquivos de conexão)
 /k8s/ # Manifests Kubernetes para deploy da aplicação completa
 README.md # Este arquivo
-
+```
 
 ## 🛠 Tecnologias
 
@@ -44,11 +44,9 @@ README.md # Este arquivo
 
 ## 📌 Importante
 
-    O banco MySQL está configurado com volume persistente para garantir que os dados não sejam perdidos.
-
-    Variáveis de ambiente configuram a conexão do backend com o banco.
-
-    O frontend deve se comunicar com o backend pela URL interna do Kubernetes.
+- O banco MySQL está configurado com volume persistente para garantir que os dados não sejam perdidos.
+- Variáveis de ambiente configuram a conexão do backend com o banco.
+- O frontend deve se comunicar com o backend pela URL interna do Kubernetes.
 
 ## 🔗 Referência
 
